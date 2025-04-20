@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>موقع رويدا لتعلم اللغة الإنجليزية</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+      margin: 0;
+      padding: 0;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    header {
+      background: #2196f3;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-top: -30px;
+      z-index: 1;
+      position: relative;
+    }
+    h2 {
+      color: #1565c0;
+      border-bottom: 2px solid #bbdefb;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f1f8ff;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: right;
+    }
+    a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #2196f3;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .button-link:hover {
+      background-color: #1976d2;
+    }
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>موقع رويدا لتعلم اللغة الإنجليزية</h1>
+    <p>دليلك الشامل لتعلم الإنجليزية مجانًا وبأسلوب ممتع</p>
+  </header>
+
+  <main>
+    <h2>أهلاً بك!</h2>
+    <p>في هذا الموقع ستجد أهم وأفضل المصادر المجانية لتعلم اللغة الإنجليزية من البداية حتى الاحتراف.</p>
+
+    <h2>أفضل المصادر المجانية</h2>
+    <ul>
+      <li>
+        <strong>Duolingo:</strong> تطبيق مجاني لتعلم المفردات والعبارات بطريقة ممتعة.
+        <br><a class="button-link" href="https://www.duolingo.com" target="_blank">زيارة الموقع</a>
+      </li>
+      <li>
+        <strong>Memrise:</strong> منصة تساعدك على حفظ الكلمات باستخدام التكرار الذكي.
+        <br><a class="button-link" href="https://www.memrise.com" target="_blank">زيارة الموقع</a>
+      </li>
+      <li>
+        <strong>BBC Learning English:</strong> دروس وقواعد ومقاطع صوتية من مصدر موثوق.
+        <br><a class="button-link" href="https://www.bbc.co.uk/learningenglish" target="_blank">زيارة الموقع</a>
+      </li>
+      <li>
+        <strong>TED:</strong> مقاطع فيديو ملهمة مع ترجمة، ممتازة لتحسين الاستماع.
+        <br><a class="button-link" href="https://www.ted.com" target="_blank">زيارة الموقع</a>
+      </li>
+      <li>
+        <strong>Coursera:</strong> دورات جامعية مجانية (ابحث عن دورات تعلم اللغة الإنجليزية).
+        <br><a class="button-link" href="https://www.coursera.org" target="_blank">زيارة الموقع</a>
+      </li>
+      <li>
+        <strong>YouTube - EnglishClass101:</strong> قناة تقدم دروسًا مبسطة ومفيدة للمبتدئين.
+        <br><a class="button-link" href="https://www.youtube.com/user/EnglishClass101" target="_blank">زيارة القناة</a>
+      </li>
+      <li>
+        <strong>دليلك للإنجليزي:</strong> منصة عربية لتعلم الإنجليزية من الأساسيات حتى المتقدم.
+        <br><a class="button-link" href="https://www.daleelenglish.com" target="_blank">زيارة الموقع</a>
+      </li>
+    </ul>
+
+    <h2>نصائح فعالة لتعلم اللغة الإنجليزية</h2>
+    <ul>
+      <li>خصص وقتًا يوميًا للتعلم حتى لو 15 دقيقة فقط.</li>
+      <li>شاهد أفلامًا ومسلسلات مترجمة لتقوية الاستماع والمفردات.</li>
+      <li>استخدم دفتر ملاحظات لتدوين الكلمات الجديدة ومراجعتها.</li>
+      <li>مارس المحادثة مع أصدقاء أو عبر تطبيقات تبادل اللغة مثل Tandem أو HelloTalk.</li>
+      <li>استخدم تطبيقات القواميس لترجمة الكلمات وتعلم نطقها الصحيح.</li>
+      <li>اقرأ مقالات وقصص قصيرة باللغة الإنجليزية لتوسيع مفرداتك.</li>
+      <li>حاول التفكير باللغة الإنجليزية وتكوين جمل بسيطة يوميًا.</li>
+      <li>تدرب على الكتابة باللغة الإنجليزية من خلال كتابة يوميات أو مقالات قصيرة.</li>
+      <li>استمع إلى كتب صوتية باللغة الإنجليزية لتحسين مهارة الاستماع.</li>
+      <li>لا تخف من ارتكاب الأخطاء، فكل خطأ هو فرصة للتعلم.</li>
+      <li>شارك في منتديات أو مجموعات تعلم اللغة الإنجليزية لتبادل الخبرات.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 موقع رويدا لتعلم اللغة الإنجليزية - تصميم الموقع /رويدا أول ثانوي
+  </footer>
+</body>
+</html>
